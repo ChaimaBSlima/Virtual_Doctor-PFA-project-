@@ -40,7 +40,7 @@ def conversation_with_zira():
         input_text = recognize_speechZ()
 
         if input_text != "Sorry, I couldn't understand what you said." and input_text != "Could not request results" and input_text != "" and not test:
-            D2Z.listen.setText("analyzing your speech .. Please wait! ..")
+            D2Z.listen.setText("Analyzing your speech .. Please wait! ..")
             QApplication.processEvents()
             cursor.execute(query)
             results = cursor.fetchall()
@@ -88,7 +88,7 @@ def conversation_with_david():
         input_text = recognize_speechD()
 
         if input_text != "Sorry, I couldn't understand what you said." and input_text != "Could not request results" and input_text != "" and not test:
-            D2D.listen.setText("analyzing your speech .. Please wait! ..")
+            D2D.listen.setText("Analyzing your speech .. Please wait! ..")
             QApplication.processEvents()
             cursor.execute(query)
             results = cursor.fetchall()
