@@ -1,0 +1,1068 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1200</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1200</width>
+    <height>800</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1200</width>
+    <height>800</height>
+   </size>
+  </property>
+  <property name="contextMenuPolicy">
+   <enum>Qt::CustomContextMenu</enum>
+  </property>
+  <property name="windowTitle">
+   <string>Virtual Doctor</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../pictures/icone.jpg</normaloff>../pictures/icone.jpg</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(0, 0, 0);</string>
+  </property>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>50</y>
+     <width>361</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);
+font:  26pt &quot;MS Shell Dlg 2&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Balanced Nutrition</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>770</y>
+     <width>1201</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QLabel" name="creditsLabel">
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>16</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Segoe UI</family>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(65, 65, 65);
+color: rgb(211, 211, 211);
+</string>
+      </property>
+      <property name="text">
+       <string>By: CHAIMA BEN SLIMA</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="creditsLabel_2">
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>16</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Segoe UI</family>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="layoutDirection">
+       <enum>Qt::RightToLeft</enum>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(65, 65, 65);
+color: rgb(211, 211, 211);
+</string>
+      </property>
+      <property name="text">
+       <string>v.1.0.0</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>870</x>
+     <y>160</y>
+     <width>258</width>
+     <height>237</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_3">
+    <item>
+     <widget class="QLabel" name="label_6">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0,0,0);
+background-color: rgb(255, 255, 255);
+font: 18pt &quot;MS Shell Dlg 2&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Meats and Eggs</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QTableWidget" name="meat">
+      <property name="cursor" stdset="0">
+       <cursorShape>IBeamCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+      <row>
+       <property name="text">
+        <string>Calf</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Chicken and poultry</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Chicken egg (45g)</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Dry meat &quot;Kadide&quot;</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Lamb</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Rabbit</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Shrimp</string>
+       </property>
+      </row>
+      <column>
+       <property name="text">
+        <string>mass</string>
+       </property>
+      </column>
+      <item row="0" column="0">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </item>
+      <item row="1" column="0">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </item>
+      <item row="2" column="0">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </item>
+      <item row="3" column="0">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </item>
+      <item row="4" column="0">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </item>
+      <item row="5" column="0">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </item>
+      <item row="6" column="0">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget_3">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>430</y>
+     <width>291</width>
+     <height>237</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_4">
+    <item>
+     <widget class="QLabel" name="label_7">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0,0,0);
+background-color: rgb(255, 255, 255);
+font: 14pt &quot;MS Shell Dlg 2&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Fish and products of sea</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QTableWidget" name="fish">
+      <property name="cursor" stdset="0">
+       <cursorShape>IBeamCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+      <row>
+       <property name="text">
+        <string>Mule</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Red mullet</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Sardines (fresh)</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Sardine (conserve)</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>fresh tuna</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Thon (connserve)</string>
+       </property>
+      </row>
+      <column>
+       <property name="text">
+        <string>mass</string>
+       </property>
+      </column>
+      <item row="0" column="0">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </item>
+      <item row="1" column="0">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </item>
+      <item row="2" column="0">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </item>
+      <item row="3" column="0">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </item>
+      <item row="4" column="0">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </item>
+      <item row="5" column="0">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget_4">
+   <property name="geometry">
+    <rect>
+     <x>600</x>
+     <y>430</y>
+     <width>261</width>
+     <height>237</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_5">
+    <item>
+     <widget class="QLabel" name="label_8">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0,0,0);
+background-color: rgb(255, 255, 255);
+font: 14pt &quot;MS Shell Dlg 2&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Cereals and Derivatives</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QTableWidget" name="cereals">
+      <property name="cursor" stdset="0">
+       <cursorShape>IBeamCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+      <row>
+       <property name="text">
+        <string>Wheat flour</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Pasta (macaroni)</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Pain complet</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Pain blanc</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>White rice</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Wheat semolina</string>
+       </property>
+      </row>
+      <column>
+       <property name="text">
+        <string>mass</string>
+       </property>
+      </column>
+      <item row="0" column="0">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </item>
+      <item row="1" column="0">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </item>
+      <item row="2" column="0">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </item>
+      <item row="3" column="0">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </item>
+      <item row="4" column="0">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </item>
+      <item row="5" column="0">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget_5">
+   <property name="geometry">
+    <rect>
+     <x>880</x>
+     <y>430</y>
+     <width>258</width>
+     <height>237</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_6">
+    <item>
+     <widget class="QLabel" name="sweets1">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0,0,0);
+background-color: rgb(255, 255, 255);
+font: 18pt &quot;MS Shell Dlg 2&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Sweets</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QTableWidget" name="sweets">
+      <property name="cursor" stdset="0">
+       <cursorShape>IBeamCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+      <row>
+       <property name="text">
+        <string>Candy</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Jam</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Chocolate</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Honey</string>
+       </property>
+      </row>
+      <column>
+       <property name="text">
+        <string>mass</string>
+       </property>
+      </column>
+      <item row="0" column="0">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </item>
+      <item row="1" column="0">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </item>
+      <item row="2" column="0">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </item>
+      <item row="3" column="0">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>160</y>
+     <width>290</width>
+     <height>237</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="label_4">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0,0,0);
+background-color: rgb(255, 255, 255);
+font: 18pt &quot;MS Shell Dlg 2&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Fruits and Vegetables</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QTableWidget" name="fruit">
+      <property name="cursor" stdset="0">
+       <cursorShape>IBeamCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+      <row>
+       <property name="text">
+        <string>Apples</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Apricot</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Artichoke</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Banana</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Carrots</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Cauliflower</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>concentrated tomato</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Cucumbers</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Dates</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Dried Almond</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Dried figs</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Dry bean</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Fresh figs</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>fresh tomato</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Grapes (fresh)</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>green bean</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>green peppers</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Pears</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Peas (green)</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Potatoes</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Prickly Pear</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>salted olives</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Turnip 
+</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Lenses</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Onion</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Oranges</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Parsley</string>
+       </property>
+      </row>
+      <column>
+       <property name="text">
+        <string>mass</string>
+       </property>
+      </column>
+      <item row="0" column="0">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </item>
+      <item row="1" column="0">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </item>
+      <item row="2" column="0">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </item>
+      <item row="3" column="0">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </item>
+      <item row="4" column="0">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </item>
+      <item row="5" column="0">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </item>
+      <item row="6" column="0">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </item>
+      <item row="7" column="0">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </item>
+      <item row="8" column="0">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </item>
+      <item row="9" column="0">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </item>
+      <item row="10" column="0">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </item>
+      <item row="11" column="0">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </item>
+      <item row="12" column="0">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </item>
+      <item row="13" column="0">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </item>
+      <item row="14" column="0">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </item>
+      <item row="15" column="0">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </item>
+      <item row="16" column="0">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </item>
+      <item row="17" column="0">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </item>
+      <item row="18" column="0">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </item>
+      <item row="19" column="0">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </item>
+      <item row="20" column="0">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </item>
+      <item row="21" column="0">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </item>
+      <item row="22" column="0">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </item>
+      <item row="23" column="0">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </item>
+      <item row="24" column="0">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </item>
+      <item row="25" column="0">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </item>
+      <item row="26" column="0">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>600</x>
+     <y>160</y>
+     <width>261</width>
+     <height>237</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <widget class="QLabel" name="label_5">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0,0,0);
+background-color: rgb(255, 255, 255);
+font: 14pt &quot;MS Shell Dlg 2&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Drinks and Diary Product</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QTableWidget" name="drinks">
+      <property name="cursor" stdset="0">
+       <cursorShape>IBeamCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+      <row>
+       <property name="text">
+        <string>Soft drink</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Cheese (gruere)</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Whole milk (cow)</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Lean yogurt</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Black coffee</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Tea</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Butter</string>
+       </property>
+      </row>
+      <column>
+       <property name="text">
+        <string>mass</string>
+       </property>
+      </column>
+      <item row="0" column="0">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </item>
+      <item row="1" column="0">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </item>
+      <item row="2" column="0">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </item>
+      <item row="3" column="0">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </item>
+      <item row="4" column="0">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </item>
+      <item row="5" column="0">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </item>
+      <item row="6" column="0">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="home">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>51</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+font: 75 9pt &quot;MS Shell Dlg 2&quot;;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../pictures/Home.png</normaloff>../pictures/Home.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>50</width>
+     <height>50</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>10</y>
+     <width>231</width>
+     <height>201</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../pictures/bubble.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>220</y>
+     <width>211</width>
+     <height>531</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../pictures/doctor.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="l1">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>40</y>
+     <width>161</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);
+font: 75 10pt &quot;OCR A Extended&quot;;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="l2">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>90</y>
+     <width>191</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);
+font: 75 10pt &quot;OCR A Extended&quot;;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="calculate">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>710</y>
+     <width>211</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+font: 75 9pt &quot;MS Shell Dlg 2&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Calculate</string>
+   </property>
+  </widget>
+  <zorder>label_3</zorder>
+  <zorder>layoutWidget</zorder>
+  <zorder>layoutWidget_2</zorder>
+  <zorder>layoutWidget_3</zorder>
+  <zorder>layoutWidget_4</zorder>
+  <zorder>layoutWidget_5</zorder>
+  <zorder>layoutWidget</zorder>
+  <zorder>layoutWidget</zorder>
+  <zorder>label_2</zorder>
+  <zorder>label</zorder>
+  <zorder>l1</zorder>
+  <zorder>l2</zorder>
+  <zorder>home</zorder>
+  <zorder>calculate</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

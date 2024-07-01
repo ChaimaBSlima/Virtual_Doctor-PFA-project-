@@ -1,0 +1,15 @@
+from PyQt5 import uic,QtWidgets
+from PyQt5.QtWidgets import QApplication
+app = QtWidgets.QApplication([])
+D1 = uic.loadUi(r"C:\Users\Chaima Ben slima\Virtual_Doctor-PFA-project-\app_windows\D1.ui")
+D2 = uic.loadUi(r"C:\Users\Chaima Ben slima\Virtual_Doctor-PFA-project-\app_windows\D2.ui")
+D2D= uic.loadUi(r"C:\Users\Chaima Ben slima\Virtual_Doctor-PFA-project-\app_windows\D2D.ui")
+D2Z= uic.loadUi(r"C:\Users\Chaima Ben slima\Virtual_Doctor-PFA-project-\app_windows\D2Z.ui")
+D2S= uic.loadUi(r"C:\Users\Chaima Ben slima\Virtual_Doctor-PFA-project-\app_windows\D2S.ui")
+D2F= uic.loadUi(r"C:\Users\Chaima Ben slima\Virtual_Doctor-PFA-project-\app_windows\D2F.ui")
+D3 = uic.loadUi(r"C:\Users\Chaima Ben slima\Virtual_Doctor-PFA-project-\app_windows\D3.ui")
+D4 = uic.loadUi(r"C:\Users\Chaima Ben slima\Virtual_Doctor-PFA-project-\app_windows\D4.ui")
+D44 = uic.loadUi(r"C:\Users\Chaima Ben slima\Virtual_Doctor-PFA-project-\app_windows\D44.ui")
+D5 = uic.loadUi(r"C:\Users\Chaima Ben slima\Virtual_Doctor-PFA-project-\app_windows\D5.ui")
+D55 = uic.loadUi(r"C:\Users\Chaima Ben slima\Virtual_Doctor-PFA-project-\app_windows\D55.ui")
+D55C = uic.loadUi(r"C:\Users\Chaima Ben slima\Virtual_Doctor-PFA-project-\app_windows\D55C.ui")
