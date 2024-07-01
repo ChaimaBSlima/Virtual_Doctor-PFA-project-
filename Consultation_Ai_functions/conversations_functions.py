@@ -1,7 +1,7 @@
 from PyQt5.QtWidgets import QApplication
 import speech_recognition as sr
 import pyttsx3
-from windows_functions.loading_windows import app, D2D, D2Z
+from windows_functions.loading_windows import D2D, D2Z
 from Consultation_Ai_functions.speech_recognition_functions import*
 from Consultation_Ai_functions.compute_similarity_function import*
 from Consultation_Ai_functions.start_questions_functions import *
