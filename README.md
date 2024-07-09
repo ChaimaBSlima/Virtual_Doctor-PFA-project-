@@ -19,3 +19,25 @@
 #### 4/ Doctor Access
 
 - Doctors can log in to update healthcare data and their personal information.
+
+
+# Technologies Used :gear:
+- Python
+- PyQt5
+- SpeechRecognition
+- pyttsx3
+- sentence_transformers
+- pyodbc
+
+# Challenges :dart:
+
+## Technical Challenges 
+
+ - Developing a custom AI algorithm for symptom analysis and consultation.
+- Integrating speech recognition and natural language processing for voice chat.
+
+## Non-Technical Challenges
+- Gathering accurate and comprehensive medical data from various doctors.
+- Ensuring the application provides safe and reliable medical advice.
+
+
