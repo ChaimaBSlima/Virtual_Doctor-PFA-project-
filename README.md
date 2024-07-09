@@ -1,1 +1,3 @@
 ![Virtual Doctor](https://github.com/ChaimaBSlima/Virtual_Doctor-PFA-project-/assets/146720036/4a4243db-3e50-4c3f-a04e-9fedf3d09881)
+# Overview :page_facing_up:
+`Virtual Doctor` is a comprehensive health management application designed to provide online consultations, illness advice, and drug recommendations. It helps users maintain a balanced diet, track their health metrics, and offers a seamless connection to real doctors in case of doubt or severe health conditions.
