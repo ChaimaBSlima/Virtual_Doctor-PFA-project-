@@ -20,7 +20,7 @@
 
 - Doctors can log in to update healthcare data and their personal information.
 
-# Installation :computer:
+# Installation process :computer:
 
 `Note: Use Windows for the best experience `
 
@@ -67,4 +67,26 @@ python .\app_exec.py
 - Gathering accurate and comprehensive medical data from various doctors.
 - Ensuring the application provides safe and reliable medical advice.
 
+# Inspiration :mag:
+Virtual Doctor was inspired by the need to provide accessible healthcare to those in remote areas with limited access to doctors. Witnessing the struggles of people who have to travel long distances to see a doctor motivated us to create a solution that brings medical advice and consultation to their fingertips.
 
+# Future Plans :calendar:
+- `Advanced AI Models:` Improve consultation speed and accuracy.
+- `Expanded Medical Database:` Enrich medical data for better advice.
+- `Multilingual Support:` Cater to a global audience.
+- `Enhanced User Interface:` Create a more intuitive experience.
+- `Mobile Application:` Develop Android and iOS versions.
+- `Healthcare Provider Collaboration:` Partner with more providers for validated data.
+- `Preventive Healthcare Features:` Focus on health tips and check-up reminders.
+- `Community Features:` Build a forum for user support and sharing.
+
+# Authors :woman_technologist:
+- [@ChaimaBSlima](https://github.com/ChaimaBSlima)
+- [@ChaimaLinkin](https://www.linkedin.com/in/chaima-ben-slima-35477120a/)
+  ### 🚀 About me 
+      I'm a Machine Learning developer...
+
+# Acknowledgments :busts_in_silhouette:
+- Holberton School for providing the learning platform.
+- Doctors who contributed their knowledge and data to make this project possible.
+- Mentors and peers for their continuous support and feedback.
