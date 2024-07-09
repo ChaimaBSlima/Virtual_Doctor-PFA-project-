@@ -20,6 +20,33 @@
 
 - Doctors can log in to update healthcare data and their personal information.
 
+# Installation :computer:
+
+`Note: Use Windows for the best experience `
+
+#### 1- Install dependencies
+
+``` bash
+pip install PyQt5
+pip install SpeechRecognition
+pip install pyttsx3
+pip install sentence_transformers
+pip install pyodbc
+```
+#### 2- Clone the repository
+``` bash
+git clone https://github.com/ChaimaBSlima/Virtual_Doctor-PFA-project-
+```
+#### 3- Navigate to the project directory
+``` bash 
+cd Virtual_Doctor-PFA-project-
+``` 
+
+#### 4- Execute the application
+
+``` bash 
+python .\app_exec.py
+``` 
 
 # Technologies Used :gear:
 - Python
